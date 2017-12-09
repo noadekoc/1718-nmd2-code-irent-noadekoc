@@ -1,0 +1,129 @@
+$red: rgb(231,58,61);
+$blue: rgb(0,75,81);
+$pink: rgb(236,95,98);
+
+$color-one: $red;
+$color-two: $blue;
+$color-three: $pink;
+
+h1 {font-size: 35px;
+    color: $color-one;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15px;}
+h2 {font-size: 25px;
+    color: $color-three;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15px;}
+h3 {font-size: 20px;
+    color: $color-one;
+    margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15px;}
+h4 {font-size: 20px;
+    color: $color-two;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15px;}
+p {font-size: 15px;
+    color: $color-two;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 15px;}
+
+a:link {text-decoration: none;}
+
+.plus_knop {background-color: $color-two;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 30px;
+            font-family: 'Arimo', sans-serif;
+            font-size: 20px;}
+
+.knop_normaal {background-color: $color-one;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Arimo', sans-serif;}
+
+.knop_footer {background-color: white;
+    color: $color-two;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-family: 'Arimo', sans-serif;}
+
+footer {background-color: $color-two;
+        margin-top: 10px;}
+
+.footer_tekst {color: white;
+                font-size: 15px;
+                margin-left: 10px;
+                font-family: 'Oswald', sans-serif;}
+
+.social_media {margin: 5px;}
+
+.navbar-toggler {border: none;}
+
+.navigatie {background-color:white;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            font-size: 20px;
+            color: $color-one;
+            margin-top: 15px;
+            background-color: white;}
+
+.knop_huren {background-color: $color-two;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Arimo', sans-serif;}
+
+.stappen {border: solid 3px $color-one;
+        height: 40px;
+        width: 40px;
+        margin: 15px;
+        margin-top: -25px;
+        background: white;
+        z-index: 1;
+        font-family: 'Oswald', sans-serif;
+        }
+
+.stappen:active {background-color: $color-one;
+                color: white;}
+
+.streep_stappen {height: 1px;
+                width: 100%;
+                border-bottom: solid 3px $color-one;
+                margin-top: 50px;
+                z-index: -1;}
+
+.jumbotron {background-color: white;
+            margin-bottom: -40px;}
+
+.display-3 {font-size: 30px;
+            color: $color-one;
+            font-family: 'Oswald', sans-serif;}
+.lead {font-size: 15px;
+    color: $color-two;
+    font-family: 'Arimo', sans-serif;}
+
+.streep {height: 1px;
+    width: 100%;
+    border-bottom: solid 3px $color-one;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+.underline {border: none;
+        border-bottom: solid 2px $color-one;
+        width: 100%;
+        font-size: 15px;
+        color: $color-two;
+        font-family: 'Arimo', sans-serif;
+        margin-top: 25px;}
+
+.form-group {font-size: 15px;
+    color: $color-two;
+    font-family: 'Arimo', sans-serif;
+    }
